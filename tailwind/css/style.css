@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.amezing.exclusive .flight::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, rgba(5, 16, 54, 0.5) 0%, #051036 72.43%);
+    opacity: 0.85;
+}
+
+.btn {
+    background-color: #051036 !important;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px !important;
+}
+
+.slider-1 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100% !important;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav .submenu-hover:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 120%;
+}
+
+.half::before{
+    content: "";
+    background: linear-gradient(180deg, rgba(5, 16, 54, 0.7)0%, rgba(5, 16, 54, 0)100%);
+}
